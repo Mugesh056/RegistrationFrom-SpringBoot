@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +11,27 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+
+
+
+.container{
+  position: relative;
+    top: 20%;
+}
+
+.error{
+  position: absolute;
+  color: red;
+  font-size: .6rem;
+}
+
+label{
+  font-size: .9rem;  
+}
+
+input.font-control, input.form-control:focus{
+  background: #F0F0FF;
 }
